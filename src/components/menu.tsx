@@ -1,11 +1,11 @@
 export default function MenuBar(){
     return(
-        <nav>
-            <li>
-                <ul>About</ul>
-                <ul>Projects</ul>
-                <ul>Contact</ul>
-            </li>
+        <nav className="flex justify-center items-center h-16 bg-gray-100">
+            <ul className="flex space-x-10">
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
         </nav>
     );
 }
