@@ -1,0 +1,88 @@
+{
+  "frontend": [
+    {
+      "name": "React",
+      "level": "Beginner",
+      "icon": "devicon-react-original colored"
+    },
+    {
+      "name": "HTML",
+      "level": "Advanced",
+      "icon": "devicon-html5-plain colored"
+    },
+    {
+      "name": "CSS",
+      "level": "Advanced",
+      "icon": "devicon-css3-plain colored"
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "icon": "devicon-javascript-plain colored"
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "icon": "devicon-typescript-plain colored"
+    },
+    {
+      "name": "Angular",
+      "level": "Beginner",
+      "icon": "devicon-angularjs-plain colored"
+    },
+    {
+      "name": "Tailwind",
+      "level": "Beginner",
+      "icon": "devicon-tailwindcss-plain colored"
+    }
+  ],
+  "backend": [
+    {
+      "name": "Java",
+      "level": "Intermediate",
+      "icon": "devicon-java-plain colored"
+    },
+    {
+      "name": "Node.js",
+      "level": "Intermediate",
+      "icon": "devicon-nodejs-plain colored"
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Beginner",
+      "icon": "devicon-spring-plain colored"
+    },
+    {
+      "name": "SQL",
+      "level": "Intermediate",
+      "icon": "devicon-azuresqldatabase-plain colored"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Intermediate",
+      "icon": "devicon-postgresql-plain colored"
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "icon": "devicon-python-plain colored"
+    },
+    {
+      "name": "PHP",
+      "level": "Intermediate",
+      "icon": "devicon-php-plain colored"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Git",
+      "level": "Beginner",
+      "icon": "devicon-git-plain colored"
+    },
+    {
+      "name": "GitHub",
+      "level": "Beginner",
+      "icon": "devicon-github-original colored"
+    }
+  ]
+}

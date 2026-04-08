@@ -1,0 +1,82 @@
+[
+    {
+        "name":"Chart Creator",
+        "description":"Angular-based chart builder that allows users to upload Excel spreadsheets, select specific columns, choose from multiple chart types, and generate dynamic, interactive visualizations. The tool also supports easy export of charts to PDF for sharing, reporting, and presentation purposes.",
+        "link": "https://github.com/JP-Soares/Chart-Creator",
+        "tecnologies":[
+            {
+                "name":"Angular",
+                "icon":"devicon-angularjs-plain colored"
+            },
+            {
+                "name":"TypeScript",
+                "icon":"devicon-typescript-plain colored"
+            },
+            {
+                "name":"HTML",
+                "icon":"devicon-html5-plain colored"
+            },
+            {
+                "name":"CSS",
+                "icon":"devicon-css3-plain colored"
+            }
+        ]
+    },
+    {
+        "name":"To Do API",
+        "description":"Angular-based chart builder that allows users to upload Excel spreadsheets, select specific columns, choose from multiple chart types, and generate dynamic, interactive visualizations. The tool also supports easy export of charts to PDF for sharing, reporting, and presentation purposes.",
+        "link":"https://github.com/JP-Soares/ToDoAppApi",
+        "tecnologies":[
+            {
+                "name":"Spring Boot",
+                "icon":"devicon-spring-plain colored"
+            },
+            {
+                "name":"Java",
+                "icon":"devicon-java-plain colored"
+            },
+            {
+                "name":"SQL",
+                "icon":"devicon-azuresqldatabase-plain colored"
+            },
+            {
+                "name":"PostgreSQL",
+                "icon":"devicon-postgresql-plain colored"
+            }
+        ]  
+    },
+    {
+        "name":"Teacher Agenda",
+        "description":"The Teacher Scheduling System is a comprehensive platform designed to streamline the management of teachers, shifts, classes, and academic schedules. It provides a structured, organized, and efficient way to control teaching workloads and avoid conflicts, ensuring a smooth academic management experience for institutions.",
+        "link":"https://github.com/JP-Soares/TeacherAgenda",
+        "tecnologies":[
+            {
+                "name":"Python",
+                "icon":"devicon-python-plain colored"
+            }
+        ]  
+    },
+    {
+        "name":"Online Menu",
+        "description":"The Online Menu is a modern and interactive web application developed using React, designed to enhance the customer experience when ordering food. The platform allows users to browse menu items, customize their orders with extras, and submit the order seamlessly via WhatsApp.",
+        "link":"https://github.com/JP-Soares/cardapio-online",
+        "tecnologies":[
+            {
+                "name":"React",
+                "icon":"devicon-react-plain colored"
+            },
+            {
+                "name":"JavaScript",
+                "icon":"devicon-javascript-plain colored"
+            },
+            {
+                "name":"HTML",
+                "icon":"devicon-html5-plain colored"
+            },
+            {
+                "name":"CSS",
+                "icon":"devicon-css3-plain colored"
+            }
+        ]
+    }
+]
