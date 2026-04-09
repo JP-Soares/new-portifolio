@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-jacksons-purple-50: #ecf2ff;
+  --color-jacksons-purple-100: #dce7ff;
+  --color-jacksons-purple-200: #bfd2ff;
+  --color-jacksons-purple-300: #99b5ff;
+  --color-jacksons-purple-400: #708bff;
+  --color-jacksons-purple-500: #4f64ff;
+  --color-jacksons-purple-600: #2f37fc;
+  --color-jacksons-purple-700: #2327df;
+  --color-jacksons-purple-800: #1d22a5;
+  --color-jacksons-purple-900: #22298d;
+  --color-jacksons-purple-950: #141652;
+}
+
+
 body {
   margin: 0;
   font-family: 'open sans';
