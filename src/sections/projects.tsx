@@ -22,19 +22,24 @@ export default function Projects(){
             <div className="flex p-10 grid grid-cols-2 justify-center gap-20">
                 {data.map((projects)=>
                     <div key={projects.name} className="w-lg h-80 bg-woodsmoke-900 rounded-md p-5">
-                        <h2 className="text-xl text-woodsmoke-100">{projects.name}</h2>
+                        <h2 className="text-xl text-woodsmoke-100 font-bold">{projects.name}</h2>
                         <p className="relative top-2 text-woodsmoke-100">{projects.description}</p>
                         <div className="relative top-10">
-                            <h2 className="text-xl text-woodsmoke-100">Technologies used:</h2>
+                            <h2 className="text-lg text-woodsmoke-100 font-bold">Technologies used:</h2>
                             <ul className="flex relative top-5 gap-10 items-center 
                             justify-center text-woodsmoke-100">
                                 {projects.tecnologies.map((tec)=>
-                                    <li className="flex items-center">
-                                        <i className={`${tec.icon} text-2xl`}></i>
-                                        <span> - {tec.name}</span>
-                                    </li>
+                                    <>
+                                        <li className="flex items-center">
+                                            <i className={`${tec.icon} text-2xl`}></i>
+                                            <span> - {tec.name}</span>
+                                        </li>
+                                    </>
                                 )}
                             </ul>
+                            <p>
+                                <i className="devicon-github-original-wordmark colored"></i>
+                            </p>
                         </div>
                     </div>
                 )}
