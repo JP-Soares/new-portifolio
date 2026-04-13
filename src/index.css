@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --color-jacksons-purple-50: #ecf2ff;
-  --color-jacksons-purple-100: #dce7ff;
-  --color-jacksons-purple-200: #bfd2ff;
-  --color-jacksons-purple-300: #99b5ff;
-  --color-jacksons-purple-400: #708bff;
-  --color-jacksons-purple-500: #4f64ff;
-  --color-jacksons-purple-600: #2f37fc;
-  --color-jacksons-purple-700: #2327df;
-  --color-jacksons-purple-800: #1d22a5;
-  --color-jacksons-purple-900: #22298d;
-  --color-jacksons-purple-950: #141652;
+  --color-woodsmoke-50: #fafafa;
+  --color-woodsmoke-100: #f4f4f5;
+  --color-woodsmoke-200: #e5e5e6;
+  --color-woodsmoke-300: #d5d5d7;
+  --color-woodsmoke-400: #a3a3a8;
+  --color-woodsmoke-500: #737378;
+  --color-woodsmoke-600: #545459;
+  --color-woodsmoke-700: #404045;
+  --color-woodsmoke-800: #282829;
+  --color-woodsmoke-900: #1b1b1d;
+  --color-woodsmoke-950: #09090b;
 }
 
 

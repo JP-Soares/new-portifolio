@@ -3,18 +3,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'jacksons-purple': {
-          50: 'var(--color-jacksons-purple-50)',
-          100: 'var(--color-jacksons-purple-100)',
-          200: 'var(--color-jacksons-purple-200)',
-          300: 'var(--color-jacksons-purple-300)',
-          400: 'var(--color-jacksons-purple-400)',
-          500: 'var(--color-jacksons-purple-500)',
-          600: 'var(--color-jacksons-purple-600)',
-          700: 'var(--color-jacksons-purple-700)',
-          800: 'var(--color-jacksons-purple-800)',
-          900: 'var(--color-jacksons-purple-900)',
-          950: 'var(--color-jacksons-purple-950)',
+        'woodsmoke': {
+          50: 'var(--color-woodsmoke-50)',
+          100: 'var(--color-woodsmoke-100)',
+          200: 'var(--color-woodsmoke-200)',
+          300: 'var(--color-woodsmoke-300)',
+          400: 'var(--color-woodsmoke-400)',
+          500: 'var(--color-woodsmoke-500)',
+          600: 'var(--color-woodsmoke-600)',
+          700: 'var(--color-woodsmoke-700)',
+          800: 'var(--color-woodsmoke-800)',
+          900: 'var(--color-woodsmoke-900)',
+          950: 'var(--color-woodsmoke-950)',
         },
       },
     },
