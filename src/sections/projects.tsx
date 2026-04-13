@@ -18,16 +18,21 @@ export default function Projects(){
     const data: Project[] = ProjectsData;
 
     return(
-        <div>
-            <div className="flex">
+        <div className="p-10">
+            <div className="flex p-10 grid grid-cols-2 justify-center gap-20">
                 {data.map((projects)=>
-                    <div key={projects.name}>
-                        <h2>{projects.name}</h2>
-                        <p>{projects.description}</p>
-                        <div>
-                            <ul>
+                    <div key={projects.name} className="w-lg h-80 bg-woodsmoke-900 rounded-md p-5">
+                        <h2 className="text-xl text-woodsmoke-100">{projects.name}</h2>
+                        <p className="relative top-2 text-woodsmoke-100">{projects.description}</p>
+                        <div className="relative top-10">
+                            <h2 className="text-xl text-woodsmoke-100">Technologies used:</h2>
+                            <ul className="flex relative top-5 gap-10 items-center 
+                            justify-center text-woodsmoke-100">
                                 {projects.tecnologies.map((tec)=>
-                                    <li><i className={tec.icon}></i> - {tec.name}</li>
+                                    <li className="flex items-center">
+                                        <i className={`${tec.icon} text-2xl`}></i>
+                                        <span> - {tec.name}</span>
+                                    </li>
                                 )}
                             </ul>
                         </div>
