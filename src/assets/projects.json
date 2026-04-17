@@ -24,7 +24,7 @@
     },
     {
         "name":"To Do API",
-        "description":"Angular-based chart builder that allows users to upload Excel spreadsheets, select specific columns, choose from multiple chart types, and generate dynamic, interactive visualizations. The tool also supports easy export of charts to PDF for sharing, reporting, and presentation purposes.",
+        "description":"A RESTful task management API built with Java and Spring Boot, designed for efficient handling of tasks, subtasks, and status workflows. It follows clean architecture principles with a layered structure (Controller, Service, Repository) to ensure scalability, maintainability, and separation of concerns. The system supports full CRUD operations, relational data modeling, and is containerized with Docker for easy deployment.",
         "link":"https://github.com/JP-Soares/ToDoAppApi",
         "tecnologies":[
             {

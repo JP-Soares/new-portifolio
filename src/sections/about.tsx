@@ -1,7 +1,9 @@
+import Title from "../components/title";
+
 export default function About(){
     return(
-        <section>
-            
+        <section className="bg-woodsmoke-900">
+            <Title text="About"></Title>
             <div className="bg-woodsmoke-900 flex justify-between p-10 text-woodsmoke-800">
                 <div className="p-10 bg-woodsmoke-100 w-80 h-60 border rounded-md">
                     <p>

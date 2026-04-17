@@ -21,7 +21,7 @@ export default function Projects(){
         <section className="p-10 bg-woodsmoke-100">
             <div className="flex p-10 grid grid-cols-2 justify-center gap-20">
                 {data.map((projects)=>
-                    <div key={projects.name} className="w-lg h-80 bg-woodsmoke-900 rounded-md p-5">
+                    <div key={projects.name} className="w-lg h-96 bg-woodsmoke-900 rounded-md p-5">
                         <h2 className="text-xl text-woodsmoke-100 font-bold">{projects.name}</h2>
                         <p className="relative top-2 text-woodsmoke-100">{projects.description}</p>
                         <div className="relative top-10">
@@ -37,9 +37,10 @@ export default function Projects(){
                                     </>
                                 )}
                             </ul>
-                            <p>
-                                <i className="devicon-github-original-wordmark colored"></i>
-                            </p>
+                            <div className="flex justify-center mt-10">
+                                <button className="w-80 bg-woodsmoke-100 rounded"
+                                >View on GitHub</button>
+                            </div>
                         </div>
                     </div>
                 )}
