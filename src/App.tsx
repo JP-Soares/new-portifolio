@@ -6,16 +6,38 @@ import TechStack from "./sections/techstack";
 import Projects from "./sections/projects";
 import Contact from "./sections/contact";
 
+import { useEffect } from "react";
+import Lenis from "@studio-freight/lenis";
+
 function App() {
+
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 0.8, // controla a suavidade
+      smoothWheel: true,
+    });
+
+    function raf(time:number) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+    return () => {
+      lenis.destroy(); // limpeza importante
+    };
+  }, []);
+
   return (
-    <section>
+    <div>
       <MenuBar></MenuBar>
       <Header></Header>
       <About></About>
       <TechStack></TechStack>
       <Projects></Projects>
       <Contact></Contact>
-    </section>
+    </div>
   );
 }
 

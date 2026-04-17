@@ -18,7 +18,7 @@ export default function Projects(){
     const data: Project[] = ProjectsData;
 
     return(
-        <div className="p-10">
+        <div className="p-10 bg-woodsmoke-100">
             <div className="flex p-10 grid grid-cols-2 justify-center gap-20">
                 {data.map((projects)=>
                     <div key={projects.name} className="w-lg h-80 bg-woodsmoke-900 rounded-md p-5">
