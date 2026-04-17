@@ -1,6 +1,6 @@
 export default function Contact(){
     return(
-        <div>
+        <section>
             <div>
                 <div>
                     <p>linkedin</p>
@@ -9,6 +9,6 @@ export default function Contact(){
                     <p>GitHub</p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

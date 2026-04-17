@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header(){
     return(
-        <div>
+        <section>
             <div className="p-40">
                 <p className="text-2xl text-jacksons-purple-800">João Pedro</p>
                 <p className="text-jacksons-purple-800">Full-Stack Developer focused on backend systems and real-world solutions.</p>
@@ -11,6 +11,6 @@ export default function Header(){
                     solve business problems efficiently.
                 </p>
             </div>
-        </div>
+        </section>
     );
 }

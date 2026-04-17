@@ -1,6 +1,7 @@
 export default function About(){
     return(
-        <div>
+        <section>
+            
             <div className="bg-woodsmoke-900 flex justify-between p-10 text-woodsmoke-800">
                 <div className="p-10 bg-woodsmoke-100 w-80 h-60 border rounded-md">
                     <p>
@@ -24,6 +25,6 @@ export default function About(){
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
