@@ -1,46 +1,62 @@
 import ProjectsData from "../assets/projects.json"
 
-
 type Tecnologies = {
-    name:string,
-    icon:string
+    name: string,
+    icon: string
 }
 
 type Project = {
-    name:string,
-    description:string,
-    link:string,
-    tecnologies:Tecnologies[]
+    name: string,
+    description: string,
+    link: string,
+    tecnologies: Tecnologies[]
 }
 
-
-export default function Projects(){
+export default function Projects() {
     const data: Project[] = ProjectsData;
 
-    return(
+    return (
         <section className="p-10 bg-woodsmoke-100">
-            <div className="flex p-10 grid grid-cols-2 justify-center gap-20">
-                {data.map((projects)=>
-                    <div key={projects.name} className="w-lg h-96 bg-woodsmoke-900 rounded-md p-5">
-                        <h2 className="text-xl text-woodsmoke-100 font-bold">{projects.name}</h2>
-                        <p className="relative top-2 text-woodsmoke-100">{projects.description}</p>
-                        <div className="relative top-10">
-                            <h2 className="text-lg text-woodsmoke-100 font-bold">Technologies used:</h2>
-                            <ul className="flex relative top-5 gap-10 items-center 
-                            justify-center text-woodsmoke-100">
-                                {projects.tecnologies.map((tec)=>
-                                    <>
-                                        <li className="flex items-center">
+            <div className="grid grid-cols-2 gap-20">
+                {data.map((projects) =>
+                    <div
+                        key={projects.name}
+                        className="bg-woodsmoke-900 rounded-md p-5 min-h-96 flex flex-col justify-between"
+                    >
+                        {/* Conteúdo */}
+                        <div>
+                            <h2 className="text-xl text-woodsmoke-100 font-bold">
+                                {projects.name}
+                            </h2>
+
+                            <p className="mt-2 text-woodsmoke-100">
+                                {projects.description}
+                            </p>
+
+                            <div className="mt-10">
+                                <h2 className="text-lg text-woodsmoke-100 font-bold">
+                                    Technologies used:
+                                </h2>
+
+                                <ul className="flex flex-wrap gap-6 mt-5 text-woodsmoke-100 justify-center">
+                                    {projects.tecnologies.map((tec) =>
+                                        <li
+                                            key={tec.name}
+                                            className="flex items-center gap-2"
+                                        >
                                             <i className={`${tec.icon} text-2xl`}></i>
-                                            <span> - {tec.name}</span>
+                                            <span>{tec.name}</span>
                                         </li>
-                                    </>
-                                )}
-                            </ul>
-                            <div className="flex justify-center mt-10">
-                                <button className="w-80 bg-woodsmoke-100 rounded"
-                                >View on GitHub</button>
+                                    )}
+                                </ul>
                             </div>
+                        </div>
+
+                        {/* Botão */}
+                        <div className="flex justify-center mt-10">
+                            <button className="w-80 bg-woodsmoke-100 rounded py-2">
+                                View on GitHub
+                            </button>
                         </div>
                     </div>
                 )}
