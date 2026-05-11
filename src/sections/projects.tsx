@@ -1,4 +1,5 @@
 import ProjectsData from "../assets/projects.json"
+import Title from "../components/title"
 
 type Tecnologies = {
     name: string,
@@ -17,6 +18,9 @@ export default function Projects() {
 
     return (
         <section className="p-10 bg-woodsmoke-100">
+            <div>
+                <Title text="Projects" textColor="text-woodsmoke-900" lineColor="bg-woodsmoke-900"></Title>
+            </div>
             <div className="grid grid-cols-2 gap-20">
                 {data.map((projects) =>
                     <div
@@ -54,9 +58,12 @@ export default function Projects() {
 
                         {/* Botão */}
                         <div className="flex justify-center mt-10">
-                            <button className="w-80 bg-woodsmoke-100 rounded py-2">
+                            <a className="w-80 bg-woodsmoke-100 rounded py-2 align-center text-center"
+                            href={projects.link}
+                            target="_blank"
+                            >
                                 View on GitHub
-                            </button>
+                            </a>
                         </div>
                     </div>
                 )}

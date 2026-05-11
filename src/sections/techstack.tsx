@@ -18,8 +18,7 @@ export default function TechStack() {
 
     return (
         <section className="bg-woodsmoke-900 py-20 flex flex-col items-center">
-            <Title text="Tech Stack"></Title>
-            {/* CONTEÚDO */}
+            <Title text="Tech Stack" textColor="text-woodsmoke-100" lineColor="bg-woodsmoke-100"></Title>
             <div className="flex gap-40">
                 {Object.entries(data).map(([category, skills]) => (
                     <div
