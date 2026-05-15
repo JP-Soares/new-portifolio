@@ -17,13 +17,15 @@ export default function TechStack() {
     const data = SkillsData as SkillType;
 
     return (
-        <section className="bg-woodsmoke-900 py-20 flex flex-col items-center">
-            <Title text="Tech Stack" textColor="text-woodsmoke-100" lineColor="bg-woodsmoke-100"></Title>
-            <div className="flex gap-40">
+        <section id="techstack" className="bg-woodsmoke-900 py-20 flex flex-col items-center">
+            <div className="pt-10">
+                <Title text="Tech Stack" textColor="text-woodsmoke-100" lineColor="bg-woodsmoke-100"></Title>
+            </div>
+            <div className="bg-woodsmoke-900 flex flex-col gap-20 lg:flex-row items-center justify-between p-10 text-woodsmoke-800">
                 {Object.entries(data).map(([category, skills]) => (
                     <div
                         key={category}
-                        className="w-3xl bg-woodsmoke-100 p-5 rounded-md flex flex-col items-center"
+                        className="w-3xl h-96 bg-woodsmoke-100 p-5 rounded-md flex flex-col items-center"
                     >
                         <h2 className="text-woodsmoke-900 font-bold mb-4">
                             {category.toUpperCase()}

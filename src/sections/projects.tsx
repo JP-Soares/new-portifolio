@@ -17,8 +17,8 @@ export default function Projects() {
     const data: Project[] = ProjectsData;
 
     return (
-        <section className="p-10 bg-woodsmoke-100">
-            <div>
+        <section id="projects" className="p-10 bg-woodsmoke-100">
+            <div className="pt-10">
                 <Title text="Projects" textColor="text-woodsmoke-900" lineColor="bg-woodsmoke-900"></Title>
             </div>
             <div className="grid grid-cols-2 gap-20">
