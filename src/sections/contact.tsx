@@ -6,12 +6,22 @@ export default function Contact(){
             <div className="">
                 <Title text="Contact" textColor="text-woodsmoke-100" lineColor="bg-woodsmoke-100"></Title>
             </div>
-            <div className="flex justify-around align-center gap-40">
-                <div>
-                    <p>linkedin</p>
+            <div className="flex justify-around align-center gap-40 text-woodsmoke-100">
+                <div className="flex justify-center align-center items-center gap-2 text-2xl">
+                    <a className="flex justify-center align-center items-center gap-2 text-2xl"
+                        href="https://linkedin.com/in/joão-pedro-da-costa"
+                        target="_blank">
+                        <i className="devicon-linkedin-plain"></i>
+                        <p>Linkedin</p>
+                    </a>
                 </div>
-                <div>
-                    <p>GitHub</p>
+                <div className="flex justify-center align-center items-center gap-2 text-2xl">
+                    <a className="flex justify-center align-center items-center gap-2 text-2xl" 
+                        href="https://github.com/JP-Soares"
+                        target="_blank">
+                        <i className="devicon-github-original"></i>
+                        <p>GitHub</p>
+                    </a>
                 </div>
             </div>
         </section>
