@@ -21,7 +21,7 @@ export default function Projects() {
             <div className="pt-10">
                 <Title text="Projects" textColor="text-woodsmoke-900" lineColor="bg-woodsmoke-900"></Title>
             </div>
-            <div className="grid grid-cols-2 gap-20">
+            <div className="flex flex-col gap-20 lg:grid lg:grid-cols-2 lg:gap-20">
                 {data.map((projects) =>
                     <div
                         key={projects.name}

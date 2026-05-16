@@ -1,12 +1,61 @@
-export default function MenuBar(){
-    return(
-        <nav className="flex justify-center items-center h-16 w-full bg-woodsmoke-50 fixed z-10 sm:text-xl lg:text-lg">
-            <ul className="flex space-x-10 text-jacksons-woodsmoke-800">
-                <li className="hover:underline"><a href="#about">About</a></li>
-                <li className="hover:underline"><a href="#projects">Projects</a></li>
-                <li className="hover:underline"><a href="#techstack">Tech Stack</a></li>
-                <li className="hover:underline"><a href="#contact">Contact</a></li>
+import { Link } from "react-scroll";
+
+export default function MenuBar() {
+    return (
+        <nav className="fixed top-0 left-0 w-full h-16 bg-woodsmoke-50 z-10 flex justify-center items-center">
+
+            <ul className="flex flex-wrap justify-center gap-4 text-sm sm:text-lg">
+
+                <li>
+                    <Link
+                        to="about"
+                        smooth={true}
+                        duration={1600}
+                        offset={-80}
+                        className="cursor-pointer hover:underline"
+                    >
+                        About
+                    </Link>
+                </li>
+
+                <li>
+                    <Link
+                        to="techstack"
+                        smooth={true}
+                        duration={1600}
+                        offset={-80}
+                        className="cursor-pointer hover:underline"
+                    >
+                        Tech Stack
+                    </Link>
+                </li>
+
+                <li>
+                    <Link
+                        to="projects"
+                        smooth={true}
+                        duration={1600}
+                        offset={-80}
+                        className="cursor-pointer hover:underline"
+                    >
+                        Projects
+                    </Link>
+                </li>
+
+                <li>
+                    <Link
+                        to="contact"
+                        smooth={true}
+                        duration={1600}
+                        offset={-80}
+                        className="cursor-pointer hover:underline"
+                    >
+                        Contact
+                    </Link>
+                </li>
+
             </ul>
+
         </nav>
     );
 }
