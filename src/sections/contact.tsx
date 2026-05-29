@@ -7,20 +7,25 @@ export default function Contact(){
                 <Title text="Contact" textColor="text-woodsmoke-100" lineColor="bg-woodsmoke-100"></Title>
             </div>
 
-            <div className="flex items-center justify-around">
-                <div className="flex justify-around align-center gap-40 text-woodsmoke-100">
-                    <div className="flex justify-center align-center items-center gap-2 text-2xl">
-                        <a className="flex justify-center align-center items-center gap-2 text-2xl"
+            <div className="flex items-center justify-center gap-4 lg:justify-around">
+                <div className="flex items-center justify-center w-full px-4">
+                    <div className="flex justify-evenly items-center w-full max-w-md text-woodsmoke-100">
+                        <a
+                            className="flex items-center gap-2 text-xl md:text-2xl"
                             href="https://linkedin.com/in/joão-pedro-da-costa"
-                            target="_blank">
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <i className="devicon-linkedin-plain"></i>
-                            <p>Linkedin</p>
+                            <p>LinkedIn</p>
                         </a>
-                    </div>
-                    <div className="flex justify-center align-center items-center gap-2 text-2xl">
-                        <a className="flex justify-center align-center items-center gap-2 text-2xl" 
+
+                        <a
+                            className="flex items-center gap-2 text-xl md:text-2xl"
                             href="https://github.com/JP-Soares"
-                            target="_blank">
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <i className="devicon-github-original"></i>
                             <p>GitHub</p>
                         </a>

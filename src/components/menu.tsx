@@ -4,7 +4,7 @@ export default function MenuBar() {
     return (
         <nav className="fixed top-0 left-0 w-full h-16 bg-woodsmoke-50 z-10 flex justify-center items-center">
 
-            <ul className="flex flex-wrap justify-center gap-4 text-sm sm:text-lg">
+            <ul className="flex w-full justify-between px-4 text-sm sm:text-lg lg:justify-around">
 
                 <li>
                     <Link
